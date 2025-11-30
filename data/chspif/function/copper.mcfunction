@@ -1,8 +1,15 @@
-scoreboard players operation @s dig_numbers += @s copper_axe
-scoreboard players reset @s copper_axe
-scoreboard players operation @s dig_numbers += @s copper_hoe
-scoreboard players reset @s copper_hoe
-scoreboard players operation @s dig_numbers += @s copper_pickaxe
-scoreboard players reset @s copper_pickaxe
-scoreboard players operation @s dig_numbers += @s copper_shovel
-scoreboard players reset @s copper_shovel
+execute if score @s copper_axe matches 1.. run scoreboard players add @s dig_numbers 1
+execute if score @s copper_axe matches 1.. run scoreboard players add 总挖掘数 dig_numbers 1
+execute if score @s copper_axe matches 1.. run scoreboard players remove @s copper_axe 1 
+
+execute if score @s copper_hoe matches 1.. run scoreboard players add @s dig_numbers 1
+execute if score @s copper_hoe matches 1.. run scoreboard players add 总挖掘数 dig_numbers 1
+execute if score @s copper_hoe matches 1.. run scoreboard players remove @s copper_hoe 1
+
+execute if score @s copper_pickaxe matches 1.. run scoreboard players add @s dig_numbers 1
+execute if score @s copper_pickaxe matches 1.. run scoreboard players add 总挖掘数 dig_numbers 1
+execute if score @s copper_pickaxe matches 1.. run scoreboard players remove @s copper_pickaxe 1
+
+execute if score @s copper_shovel matches 1.. run scoreboard players add @s dig_numbers 1 
+execute if score @s copper_shovel matches 1.. run scoreboard players add 总挖掘数 dig_numbers 1
+execute if score @s copper_shovel matches 1.. run scoreboard players remove @s copper_shovel 1

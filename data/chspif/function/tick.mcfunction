@@ -32,5 +32,3 @@ execute if score timeboychspif time_s_triger matches 7 \
 
 
 function chspif:tick_dig
-
-

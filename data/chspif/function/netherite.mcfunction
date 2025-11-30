@@ -1,8 +1,15 @@
-scoreboard players operation @s dig_numbers += @s netherite_axe
-scoreboard players reset @s netherite_axe
-scoreboard players operation @s dig_numbers += @s netherite_hoe
-scoreboard players reset @s netherite_hoe
-scoreboard players operation @s dig_numbers += @s netherite_pickaxe
-scoreboard players reset @s netherite_pickaxe
-scoreboard players operation @s dig_numbers += @s netherite_shovel
-scoreboard players reset @s netherite_shovel
+execute if score @s netherite_axe matches 1.. run scoreboard players add @s dig_numbers 1
+execute if score @s netherite_axe matches 1.. run scoreboard players add 总挖掘数 dig_numbers 1
+execute if score @s netherite_axe matches 1.. run scoreboard players remove @s netherite_axe 1
+
+execute if score @s netherite_hoe matches 1.. run scoreboard players add @s dig_numbers 1
+execute if score @s netherite_hoe matches 1.. run scoreboard players add 总挖掘数 dig_numbers 1
+execute if score @s netherite_hoe matches 1.. run scoreboard players remove @s netherite_hoe 1
+
+execute if score @s netherite_pickaxe matches 1.. run scoreboard players add @s dig_numbers 1
+execute if score @s netherite_pickaxe matches 1.. run scoreboard players add 总挖掘数 dig_numbers 1
+execute if score @s netherite_pickaxe matches 1.. run scoreboard players remove @s netherite_pickaxe 1
+    
+execute if score @s netherite_shovel matches 1.. run scoreboard players add @s dig_numbers 1
+execute if score @s netherite_shovel matches 1.. run scoreboard players add 总挖掘数 dig_numbers 1
+execute if score @s netherite_shovel matches 1.. run scoreboard players remove @s netherite_shovel 1
