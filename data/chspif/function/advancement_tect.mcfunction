@@ -13,3 +13,9 @@ advancement grant @a[scores={flykm=5000..}] only chspif:fly5w
 advancement grant @a[scores={flykm=10000..}] only chspif:fly10w
 
 advancement grant @a[scores={damage_heart=10000..}] only chspif:damaged_heart_1w
+
+advancement grant @a[scores={placed_block=50000..}] only chspif:place5w
+advancement grant @a[scores={placed_block=250000..}] only chspif:place25w
+advancement grant @a[scores={placed_block=500000..}] only chspif:place50w
+
+advancement grant @a[scores={dig_numbers=1000000..,placed_block=500000..,gaming_time=30000..}] only chspif:oooooop

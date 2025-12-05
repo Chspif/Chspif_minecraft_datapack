@@ -1,0 +1,19 @@
+{ 
+  "display": {
+    "icon": {
+      "id": "quartz_block"
+    },
+    "title": "建筑师",
+    "description": "放置总数达到5w",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "chspif:chspif",
+  "criteria": {
+    "place5w": {
+      "trigger": "impossible"
+  }
+  }
+}

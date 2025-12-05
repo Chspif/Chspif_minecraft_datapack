@@ -1,0 +1,19 @@
+{ 
+  "display": {
+    "icon": {
+      "id": "quartz_block"
+    },
+    "title": "建筑大佬",
+    "description": "放置总数达到25w",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "chspif:place5w",
+  "criteria": {
+    "place25w": {
+      "trigger": "impossible"
+  }
+  }
+}
