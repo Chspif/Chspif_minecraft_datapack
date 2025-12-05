@@ -11,7 +11,7 @@
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "chspif:place50w",
+  "parent": "chspif:place100w",
   "criteria": {
     "chspifend7": {
       "trigger": "inventory_changed"

@@ -3,14 +3,14 @@
     "icon": {
       "id": "quartz_block"
     },
-    "title": "创世神",
+    "title": "建筑大佬",
     "description": "放置总数达到50w",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "chspif:place25w",
+  "parent": "chspif:place10w",
   "criteria": {
     "place50w": {
       "trigger": "impossible"

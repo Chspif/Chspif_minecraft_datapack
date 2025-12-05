@@ -4,7 +4,7 @@
       "id": "quartz_block"
     },
     "title": "建筑师",
-    "description": "放置总数达到5w",
+    "description": "放置总数达到10w",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
@@ -12,7 +12,7 @@
   },
   "parent": "chspif:chspif",
   "criteria": {
-    "place5w": {
+    "place10w": {
       "trigger": "impossible"
   }
   }
