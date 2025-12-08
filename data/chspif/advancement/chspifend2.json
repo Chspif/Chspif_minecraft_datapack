@@ -11,7 +11,7 @@
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "chspif:damaged_heart_1w",
+  "parent": "chspif:enter_ends",
   "criteria": {
     "chspifend2": {
       "trigger": "inventory_changed"
