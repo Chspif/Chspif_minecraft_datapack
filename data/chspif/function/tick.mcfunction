@@ -14,8 +14,3 @@ execute as @a if score @s smallfix matches ..0 run function chspif:smallfix/erro
 execute as @a if score @s smallfix matches 1.. run function chspif:smallfix/right_fix
 execute as @a if score @s fixkey matches 2.. run scoreboard players set @s fixkey 1
 #检修功能
-
-scoreboard players enable @a glowing
-execute as @a if score @s glowing matches ..0 run scoreboard players set @s glowing 0
-execute as @a if score @s glowing matches 1.. run function chspif:item_glowing/item_glowing
-#发光功能

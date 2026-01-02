@@ -24,6 +24,3 @@ scoreboard objectives add gaming_time dummy "游戏时长"
 scoreboard objectives add smallfix trigger
 scoreboard objectives add fixkey dummy
 #检修用计分板
-
-scoreboard objectives add glowing trigger
-#物品发光
