@@ -16,6 +16,6 @@ execute as @a if score @s fixkey matches 2.. run scoreboard players set @s fixke
 #检修功能
 
 scoreboard players enable @a glowing
-execute as @a if score @s glowing matches ..0 run scoreboard players set @a glowing 0
+execute as @a if score @s glowing matches ..0 run scoreboard players set @s glowing 0
 execute as @a if score @s glowing matches 1.. run function chspif:item_glowing/item_glowing
 #发光功能
