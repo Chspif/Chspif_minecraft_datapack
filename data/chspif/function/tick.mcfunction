@@ -2,27 +2,21 @@ execute if score timeboychspif time_s matches 21.. \
     run function chspif:clear_run
 
 execute if score timeboychspif time_s_triger matches 1 \
-    run scoreboard objectives setdisplay sidebar gaming_time
+    run function chspif:triger1
 
 execute if score timeboychspif time_s_triger matches 2 \
-    run scoreboard objectives setdisplay sidebar placed_block
+    run function chspif:triger2
 
 execute if score timeboychspif time_s_triger matches 3 \
-    run scoreboard objectives setdisplay sidebar dig_numbers
+    run function chspif:triger3
 
-execute if score timeboychspif time_s_triger matches 3 \
-    run function chspif:advancement_tect
+execute as @a if score @s smallfix matches ..0 run function chspif:smallfix/error_fix
+execute as @a if score @s smallfix matches 1.. run function chspif:smallfix/right_fix
+execute as @a if score @s fixkey matches 2.. run scoreboard players set @s fixkey 1
+#检修功能
 
-execute if score timeboychspif time_s_triger matches 3 \
-    run function chspif:sc_compute
-    
-execute if score timeboychspif time_s_triger matches 3 \
-    run function chspif:item_glowing
-
-execute if score timeboychspif time_s_triger matches 3 \
-    run function smallfix:smallfix_load
-
-
-execute if score timeboychspif time_s_triger matches 3 \
-    run scoreboard players set timeboychspif time_s_triger 0
-#循环展示榜单
+scoreboard players enable @a glowing
+execute as @a if score @s glowing matches ..0 run scoreboard players set @a glowing 0
+execute as @a if score @s glowing matches 1.. run function chspif:item_glowing/item_glowing
+execute as @a if score @s glowing matches 1.. run scoreboard players set @a glowing 0
+#发光功能

@@ -11,4 +11,4 @@ schedule function chspif:time_to_stop/3s 597s
 schedule function chspif:time_to_stop/2s 598s
 schedule function chspif:time_to_stop/1s 599s
 schedule function chspif:time_to_stop/stop 600s
-
+#关服插件
