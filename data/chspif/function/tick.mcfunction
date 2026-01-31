@@ -14,3 +14,6 @@ execute as @a if score @s smallfix matches ..0 run function chspif:smallfix/erro
 execute as @a if score @s smallfix matches 1.. run function chspif:smallfix/right_fix
 execute as @a if score @s fixkey matches 2.. run scoreboard players set @s fixkey 1
 #检修功能
+
+execute as @a if score @s c matches ..0 run function chspif:creative_server/error_trans
+execute as @a if score @s c matches 1.. run function chspif:creative_server/right_trans
