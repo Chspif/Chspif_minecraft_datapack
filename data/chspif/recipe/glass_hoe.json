@@ -46,14 +46,7 @@
             },
             "lore": [
                 {
-                    "type":"translatable",
-                    "translate":"item.canBreak",
-                    "color":"yellow",
-                    "italic":false
-                },
-                {
-                    "type":"translatable",
-                    "translate":"block.minecraft.glass",
+                    "text":"透明方块加速",
                     "color":"yellow",
                     "italic":false
                 }
