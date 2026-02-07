@@ -14,6 +14,14 @@
                     },
                     {
                         "blocks": [
+                            "beacon",
+                            "glowstone",
+                            "redstone_lamp",
+                            "sea_lantern",
+                            "pearlescent_froglight",
+                            "verdant_froglight",
+                            "ochre_froglight",
+                            "glass_pane",
                             "white_stained_glass_pane",
                             "orange_stained_glass_pane",
                             "magenta_stained_glass_pane",
@@ -37,7 +45,18 @@
                 ]
             },
             "lore": [
-                "玻璃神力"
+                {
+                    "type":"translatable",
+                    "translate":"item.canBreak",
+                    "color":"yellow",
+                    "italic":false
+                },
+                {
+                    "type":"translatable",
+                    "translate":"block.minecraft.glass",
+                    "color":"yellow",
+                    "italic":false
+                }
             ]
         }
     }
