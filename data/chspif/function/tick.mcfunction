@@ -17,3 +17,6 @@ execute as @a if score @s fixkey matches 2.. run scoreboard players set @s fixke
 
 execute as @a if score @s c matches ..0 run function chspif:creative_server/error_trans
 execute as @a if score @s c matches 1.. run function chspif:creative_server/right_trans
+
+execute as @a if score @s afk matches ..0 run function chspif:ban_afk/error_afk
+execute as @a if score @s afk matches 1.. run function chspif:ban_afk/right_afk

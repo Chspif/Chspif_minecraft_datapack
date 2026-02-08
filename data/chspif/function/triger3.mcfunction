@@ -11,3 +11,6 @@ execute as @e[type=minecraft:hopper_minecart] run data modify entity @s Glowing 
 
 scoreboard players set @a c 0
 scoreboard players enable @a c
+
+scoreboard players set @a afk 0
+scoreboard players enable @a afk
