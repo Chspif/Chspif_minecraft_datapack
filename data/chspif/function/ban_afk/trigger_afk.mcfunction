@@ -8,3 +8,5 @@ execute if score timeboychspif banafk matches 1.. \
 # 没ban的情况
 execute if score timeboychspif banafk matches ..0 run\
     function chspif:ban_afk/ban_afk
+
+function chspif:ban_afk/clean_trigger
