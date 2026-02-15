@@ -3,4 +3,4 @@ tellraw @a [{"text":"使用命令","color":"green","bold":false,"italic":false,"
 tellraw @a [{"text":"使用命令","color":"dark_purple","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"/trigger c","color":"blue","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"切换至创造服","color":"dark_purple","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
 tellraw @a [{"text":"使用命令","color":"green","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"/trigger afk","color":"blue","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"将afk从服务器ban离十分钟","color":"green","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
 
-schedule function chspif:info 4000t
+schedule function chspif:info 6000t
