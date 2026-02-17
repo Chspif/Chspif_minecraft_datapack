@@ -13,6 +13,11 @@
                         "speed": 3
                     },
                     {
+                        "blocks": "#mineable/hoe",
+                        "correct_for_drops": true,
+                        "speed": 3
+                    },
+                    {
                         "blocks": [
                             "beacon",
                             "glowstone",
@@ -46,9 +51,9 @@
             },
             "lore": [
                 {
-                    "text":"透明方块加速",
-                    "color":"yellow",
-                    "italic":false
+                    "text": "透明方块加速",
+                    "color": "yellow",
+                    "italic": false
                 }
             ]
         }
