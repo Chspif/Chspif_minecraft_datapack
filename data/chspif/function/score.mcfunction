@@ -26,7 +26,3 @@ scoreboard objectives add fixkey dummy
 #检修用计分板
 
 scoreboard objectives add c trigger
-
-scoreboard objectives add afk trigger
-scoreboard objectives add banafk dummy
-scoreboard players set timeboychspif banafk 0
