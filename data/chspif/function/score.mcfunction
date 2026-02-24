@@ -26,3 +26,9 @@ scoreboard objectives add fixkey dummy
 #检修用计分板
 
 scoreboard objectives add c trigger
+
+carpet fakePlayerNoScoreboardCounter true
+team add fakeplayer ["死人"]
+team modify fakeplayer prefix ["[死人] "]
+team modify fakeplayer color dark_purple
+team add realplayer
