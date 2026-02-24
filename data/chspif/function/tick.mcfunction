@@ -20,3 +20,5 @@ execute as @a if score @s c matches 1.. run function chspif:creative_server/righ
 
 execute as @a if score @s afk matches 1.. run function chspif:ban_afk/trigger_afk
 execute as @a if score @s afk matches ..0 run function chspif:ban_afk/clean_trigger
+
+function chspif:fake_player
