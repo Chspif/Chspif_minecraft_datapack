@@ -32,3 +32,7 @@ team add fakeplayer ["死人"]
 team modify fakeplayer prefix ["[死人] "]
 team modify fakeplayer color dark_purple
 team add realplayer
+#假人前缀
+
+scoreboard objectives add qwpinfo dummy
+#全物品公告

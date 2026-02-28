@@ -22,3 +22,5 @@ execute as @a if score @s afk matches 1.. run function chspif:ban_afk/trigger_af
 execute as @a if score @s afk matches ..0 run function chspif:ban_afk/clean_trigger
 
 function chspif:fake_player
+
+function chspif:qwpinfo
