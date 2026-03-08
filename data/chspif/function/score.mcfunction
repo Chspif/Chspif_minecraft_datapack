@@ -30,7 +30,7 @@ scoreboard objectives add c trigger
 carpet fakePlayerNoScoreboardCounter true
 team add fakeplayer ["死人"]
 team modify fakeplayer prefix ["[死人] "]
-team modify fakeplayer color dark_purple
+team modify fakeplayer color blue
 team add realplayer
 #假人前缀
 
